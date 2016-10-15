@@ -2,23 +2,25 @@
 <script src="./analyser.js"></script>
 
 <style>
-	body, html {
-		margin: 0;
-		padding: 0;
-		background: #333;
-	}
-	canvas {
-		left: 0;
-  		top: 0;
-	}
-	audio {
-		position: absolute;
-		z-index: 999;
-	}
+    body, html {
+        margin: 0;
+        padding: 0;
+        background: #333;
+    }
+
+    canvas {
+        left: 0;
+        top: 0;
+    }
+
+    audio {
+        position: absolute;
+        z-index: 999;
+    }
 </style>
 
 <canvas id="canvas"></canvas>
 
 <script type="text/javascript">
-	Analyser.init('http://...mp3');//http://cs1-27v4.vk-cdn.net/p26/51b9f3a86c889b.mp3
+    Analyser.init('http://...mp3');//http://cs1-27v4.vk-cdn.net/p26/51b9f3a86c889b.mp3
 </script>
